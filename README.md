@@ -2,6 +2,7 @@
 project generator
 
 This repo uses `aloha cli` to generate scaffold projects.
+
 aloha => https://github.com/BMilliet/aloha
 
 Example:
