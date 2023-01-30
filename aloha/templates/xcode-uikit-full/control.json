@@ -1,0 +1,9 @@
+
+{
+    "targets": [
+        {
+          "model": "content/__name__",
+          "destination": "generated"
+        }
+    ]
+}
