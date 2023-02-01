@@ -1,9 +1,15 @@
-
 {
     "targets": [
         {
           "model": "content/__name__",
           "destination": "generated"
         }
-    ]
+    ],
+    "justCopy": [
+      "project.xcworkspace",
+      "Assets.xcassets",
+      "Base.lproj",
+      "Info.plist",
+      ".gitignore"
+  ]
 }
