@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572FF5002A49F47D00EF098C /* __name__Main in Frameworks */ = {isa = PBXBuildFile; productRef = 572FF4FF2A49F47D00EF098C /* __name__Main */; };
 		57E11ED129872A3D0098FAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E11ED029872A3D0098FAA9 /* AppDelegate.swift */; };
-		57E11ED529872A3D0098FAA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E11ED429872A3D0098FAA9 /* ViewController.swift */; };
 		57E11EDA29872A3E0098FAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E11ED929872A3E0098FAA9 /* Assets.xcassets */; };
 		57E11EDD29872A3E0098FAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E11EDB29872A3E0098FAA9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57B93D082A49F44D00A21B7D /* __name__Main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = __name__Main; path = ../Modules/__name__Main; sourceTree = "<group>"; };
 		57E11ECD29872A3D0098FAA9 /* __name__.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = __name__.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E11ED029872A3D0098FAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57E11ED429872A3D0098FAA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57E11ED929872A3E0098FAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E11EDC29872A3E0098FAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E11EDE29872A3E0098FAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57FD69D9298731A600F91862 /* ViewCode */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ViewCode; path = ../Modules/ViewCode; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572FF5002A49F47D00EF098C /* __name__Main in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +44,7 @@
 		57E11EC429872A3D0098FAA9 = {
 			isa = PBXGroup;
 			children = (
-				57FD69D9298731A600F91862 /* ViewCode */,
+				57B93D082A49F44D00A21B7D /* __name__Main */,
 				57E11ECF29872A3D0098FAA9 /* __name__ */,
 				57E11ECE29872A3D0098FAA9 /* Products */,
 				577C0A62298731DD00611EEC /* Frameworks */,
@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				57E11ED029872A3D0098FAA9 /* AppDelegate.swift */,
-				57E11ED429872A3D0098FAA9 /* ViewController.swift */,
 				57E11ED929872A3E0098FAA9 /* Assets.xcassets */,
 				57E11EDB29872A3E0098FAA9 /* LaunchScreen.storyboard */,
 				57E11EDE29872A3E0098FAA9 /* Info.plist */,
@@ -88,6 +87,7 @@
 			);
 			name = __name__;
 			packageProductDependencies = (
+				572FF4FF2A49F47D00EF098C /* __name__Main */,
 			);
 			productName = __name__;
 			productReference = 57E11ECD29872A3D0098FAA9 /* __name__.app */;
@@ -143,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E11ED529872A3D0098FAA9 /* ViewController.swift in Sources */,
 				57E11ED129872A3D0098FAA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +349,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		572FF4FF2A49F47D00EF098C /* __name__Main */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = __name__Main;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 57E11EC529872A3D0098FAA9 /* Project object */;
 }

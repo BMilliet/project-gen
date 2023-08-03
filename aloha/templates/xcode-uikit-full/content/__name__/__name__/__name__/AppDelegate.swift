@@ -1,4 +1,5 @@
 import UIKit
+import __name__Main
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -11,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let window = window else { return false }
 
         window.makeKeyAndVisible()
-        window.rootViewController = ViewController()
+        MainApp.hello()
 
         return true
     }
